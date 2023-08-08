@@ -1,4 +1,15 @@
 // Bootstrap Variables
-$primary: #ff0000;
+$primary: #cf0a0a;
+$secondary: rgb(185, 181, 181);
+$dark: #000000;
+$light: #eeeeee;
 
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-hover-color: $primary;
+
+// Buttons
+$button-radius: 0px;
+$btn-border-width: 2px;
+$btn-border-radius: $button-radius;
 @import '../node_modules/bootstrap/scss/bootstrap';
