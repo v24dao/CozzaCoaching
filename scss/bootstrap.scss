@@ -12,4 +12,10 @@ $navbar-hover-color: $primary;
 $button-radius: 0px;
 $btn-border-width: 2px;
 $btn-border-radius: $button-radius;
+
+// Cards
+
+$card-border-radius: 0px;
+$card-border-width: 1px;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
