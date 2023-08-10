@@ -24,16 +24,13 @@ $accordion-color: $light;
 $accordion-bg: $dark;
 $accordion-button-color: $light;
 $accordion-button-bg: $dark;
+$accordion-icon-color: $light;
+$accordion-border-color: rgb(109, 107, 107);
+
 $accordion-button-active-color: $dark;
 $accordion-button-active-bg: rgb(109, 107, 107);
-
-$accordion-icon-color: $light;
 $accordion-icon-active-color: $dark;
 
-$accordion-inner-border-radius: none;
-// $accordion-border-color: $light;
-// $accordion-inner-border-color: $light;
-
-$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
