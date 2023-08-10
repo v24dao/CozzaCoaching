@@ -33,4 +33,8 @@ $accordion-icon-active-color: $dark;
 
 $accordion-button-focus-box-shadow: none;
 
+// Carousel
+$carousel-control-width: 10%;
+$carousel-transition-duration: 0.6s;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
