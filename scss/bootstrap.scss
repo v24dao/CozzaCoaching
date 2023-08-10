@@ -18,4 +18,22 @@ $btn-border-radius: $button-radius;
 $card-border-radius: 0px;
 $card-border-width: 1px;
 
+// Accordions
+
+$accordion-color: $light;
+$accordion-bg: $dark;
+$accordion-button-color: $light;
+$accordion-button-bg: $dark;
+$accordion-button-active-color: $dark;
+$accordion-button-active-bg: rgb(109, 107, 107);
+
+$accordion-icon-color: $light;
+$accordion-icon-active-color: $dark;
+
+$accordion-inner-border-radius: none;
+// $accordion-border-color: $light;
+// $accordion-inner-border-color: $light;
+
+$accordion-button-focus-border-color: none;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
