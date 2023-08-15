@@ -19,3 +19,8 @@ body {
     url(/images/IMG_8971.JPEG);
   background-size: cover;
 }
+
+#faq li,
+#services li {
+  list-style-image: url(/images/list-item.png);
+}
