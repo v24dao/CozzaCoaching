@@ -16,41 +16,46 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand-md">
       <div
-        class="container-fluid container-md d-flex flex-column flex-md-row justify-content-center justify-content-md-between"
+        class="container container-fluid  d-flex justify-content-between"
       >
-        <!-- <h3 class="navbar-brand text-light">CC LOGO</h3> -->
+        
         <img class="navbar-brand" src="/images/logo.png" width="50px" alt="">
-        <!-- <img class="navbar-brand" src="/images/CC_logo-01.png" width="100px" alt=""> -->
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              href="#testimonials"
-              class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-none d-md-inline-block"
-              >TESTIMONIALS</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="#testimonials-m"
-              class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-md-none"
-              >TESTIMONIALS</a
-            >
-          </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav >
+            <li class="nav-item">
+              <a
+                href="#testimonials"
+                class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-none d-md-inline-block"
+                >TESTIMONIALS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#testimonials-m"
+                class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-md-none"
+                >TESTIMONIALS</a
+              >
+            </li>
           
-          <li class="nav-item">
-            <a href="#" class="nav-link fw-semibold text-light mx-md-1"
-              >SOCIALS</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link fw-semibold text-light mx-md-1"
-              >CONTACT</a
-            >
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link fw-semibold text-light mx-md-1"
+                >SOCIALS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link fw-semibold text-light mx-md-1"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -67,22 +72,23 @@
             <!-- Smaller Screens Text -->
 
             <!-- Other hero text -->
-            <p class="text-secondary fw-semibold mt-4 w-75 m-auto m-md-0">
+            <p class="text-secondary fw-semibold mt-4  m-auto m-md-0">
               Bespoke training programs and coaching for all your strength
               and hypertrophy goals. Your performance is our priority.
             </p>
 
             <!-- CTA -->
             <div
-              class="d-md-block d-flex align-items-center justify-content-center"
+              class=" d-flex align-items-center justify-content-center"
             >
               <a
-                class="btn btn-outline-light mt-4 mx-1 fw-semibold d-inline-block" href="#"
+                class="btn btn-outline-light mt-4 mx-1 fw-semibold d-inline-block w-100 w-md-0" href="#"
               >
                 ABOUT US
               </a>
+
               <a
-                class="btn btn-outline-primary mt-4 mx-1 fw-semibold d-inline-block" href="#services"
+                class="btn btn-outline-primary mt-4 mx-1 fw-semibold d-inline-block w-100" href="#services"
               >
                 SERVICES
               </a>
