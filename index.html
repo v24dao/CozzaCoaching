@@ -27,11 +27,19 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              href="#"
-              class="nav-link fw-semibold text-light fw-semibold mx-md-1"
+              href="#testimonials"
+              class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-none d-md-inline-block"
               >TESTIMONIALS</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              href="#testimonials-m"
+              class="nav-link fw-semibold text-light fw-semibold mx-md-1 d-md-none"
+              >TESTIMONIALS</a
+            >
+          </li>
+          
           <li class="nav-item">
             <a href="#" class="nav-link fw-semibold text-light mx-md-1"
               >SOCIALS</a
@@ -68,16 +76,16 @@
             <div
               class="d-md-block d-flex align-items-center justify-content-center"
             >
-              <div
-                class="btn btn-outline-light mt-4 mx-1 fw-semibold d-inline-block"
+              <a
+                class="btn btn-outline-light mt-4 mx-1 fw-semibold d-inline-block" href="#"
               >
                 ABOUT US
-              </div>
-              <div
-                class="btn btn-outline-primary mt-4 mx-1 fw-semibold d-inline-block"
+              </a>
+              <a
+                class="btn btn-outline-primary mt-4 mx-1 fw-semibold d-inline-block" href="#services"
               >
                 SERVICES
-              </div>
+              </a>
             </div>
           </div>
           <!-- Larger screens -->
@@ -101,7 +109,8 @@
       <div class="container">
         <div class="d-flex flex-column align-items-center mx-3 mx-md-0">
           <h2 class="mb-3">OUR SERVICES</h2>
-          <p></p>
+          <!-- <h5 class="text-primary mb-3 d-none d-sm-flex">FIND THE COACHING PACKAGE RIGHT FOR YOU</h5>
+          <h6 class="text-primary mb-3 d-sm-none">FIND THE COACHING PACKAGE RIGHT FOR YOU</h6> -->
           <!-- Services Grid -->
           <div class="row column-gap-3">
             <!-- Card 1 -->
@@ -217,7 +226,7 @@
     </section>
 
     <!-- Testimonials Bigger screens-->
-    <section id="testomonials" class="my-5">
+    <section id="testimonials" class="my-5">
       <div class="container d-none d-lg-block">
         <div class="d-flex flex-column align-items-center mx-3 mx-md-0">
           <h2 class="mb-2">TESTIMONIALS</h2>
@@ -228,12 +237,13 @@
           <div class="row gap-4">
             <!-- #1 -->
             
-              <div id="Harry" class="card bg-dark col-md">
+              <div id="Joe" class="card bg-dark col-md">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    src="/images/JoeHeadshot.jpg"
                     class="rounded-circle mb-3"
                     alt=""
+                    height="150px"
                   />
                   <h3 class="text-secondary">Joseph Byrne</h3>
                   <h3 class="card-title mb-3 text-light"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
@@ -252,9 +262,10 @@
               <div id="Harry" class="card bg-dark col-md">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    src="images/HarryHeadshot.jpg"
                     class="rounded-circle mb-3"
                     alt=""
+                    height="150px"
                   />
                   <h3 class="text-secondary">Harry Cooke</h3>
                   <h3 class="card-title mb-3 text-light"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
@@ -272,7 +283,7 @@
     </section>
 
     <!-- Testimonials Mobile -->
-    <section id="testomonials" class="my-5">
+    <section id="testimonials-m" class="my-5">
       <div class="container d-lg-none">
         <div class="d-flex flex-column align-items-center mx-3 mx-md-0">
           <h2 class="mb-2">TESTIMONIALS</h2>
@@ -285,10 +296,11 @@
             <div id="Joe" class="card bg-dark col-md">
                   <div class="card-body text-center">
                     <img
-                      src="https://randomuser.me/api/portraits/men/11.jpg"
-                      class="rounded-circle mb-3"
-                      alt=""
-                    />
+                    src="/images/JoeHeadshot.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                    height="150px"
+                  />
                     <h3 class="text-secondary">Joseph Byrne</h3>
                     <h3 class="card-title mb-3 text-light"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
                     <p class="card-text text-light text-start">
@@ -306,10 +318,11 @@
            <div id="Harry" class="card bg-dark col-md">
                   <div class="card-body text-center">
                     <img
-                      src="https://randomuser.me/api/portraits/men/11.jpg"
-                      class="rounded-circle mb-3"
-                      alt=""
-                    />
+                    src="/images/HarryHeadshot.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                    height="150px"
+                  />
                     <h3 class="text-secondary">Harry Cooke</h3>
                     <h3 class="card-title mb-3 text-light"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
                     <p class="card-text text-light text-start">
