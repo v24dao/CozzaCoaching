@@ -1,0 +1,40 @@
+// Bootstrap Variables
+$primary: #cf0a0a;
+$secondary: rgb(185, 181, 181);
+$dark: #000000;
+$light: #eeeeee;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-hover-color: $primary;
+
+// Buttons
+$button-radius: 0px;
+$btn-border-width: 2px;
+$btn-border-radius: $button-radius;
+
+// Cards
+
+$card-border-radius: 0px;
+$card-border-width: 1px;
+
+// Accordions
+
+$accordion-color: $light;
+$accordion-bg: $dark;
+$accordion-button-color: $light;
+$accordion-button-bg: $dark;
+$accordion-icon-color: $light;
+$accordion-border-color: rgb(109, 107, 107);
+
+$accordion-button-active-color: $dark;
+$accordion-button-active-bg: rgb(109, 107, 107);
+$accordion-icon-active-color: $dark;
+
+$accordion-button-focus-box-shadow: none;
+
+// Carousel
+$carousel-control-width: 10%;
+$carousel-transition-duration: 0.6s;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
