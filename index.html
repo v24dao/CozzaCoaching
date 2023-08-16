@@ -18,17 +18,18 @@
     <!-- Navigation -->
     <nav class="navbar navbar-dark navbar-expand-md">
       <div
-        class="container container-fluid  d-flex justify-content-between"
+        class="container container-fluid  d-flex"
       >
         
-        <img class="navbar-brand" class="align-self-center" src="/images/logo.png" width="50px" alt="">
+        <img class="navbar-brand" class="" src="/images/logo.png" width="50px" alt="">
         
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
+        <!-- d-md-flex and justify-content-md-end so that on larger screens, links are positioned towards the end! -->
+        <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex">
             <li class="nav-item">
               <a
                 href="#testimonials"
