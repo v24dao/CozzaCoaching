@@ -20,10 +20,12 @@ body {
 }
 
 #footer,
-#socialsBG {
+#socialsBG,
+#aboutusBG {
   background-color: #1a1a1a;
 }
 #footer li,
-#socialsBG li {
+#socialsBG li,
+#aboutusBG li {
   letter-spacing: 0.05rem;
 }
