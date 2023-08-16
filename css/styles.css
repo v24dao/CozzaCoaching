@@ -19,9 +19,11 @@ body {
   background-position: center center;
 }
 
-#footer {
+#footer,
+#aboutUs {
   background-color: #1a1a1a;
 }
-#footer li {
+#footer li,
+#aboutUs li {
   letter-spacing: 0.05rem;
 }
