@@ -26,3 +26,10 @@ body {
 // #services li {
 //   list-style-image: url(/images/list-item.png);
 // }
+
+#footer {
+  background-color: rgb(5, 5, 5);
+  li {
+    letter-spacing: 0.05rem;
+  }
+}
