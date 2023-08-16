@@ -25,11 +25,14 @@ $accordion-bg: $dark;
 $accordion-button-color: $light;
 $accordion-button-bg: $dark;
 $accordion-icon-color: $light;
-$accordion-border-color: rgb(109, 107, 107);
+// $accordion-border-color: rgb(109, 107, 107);
+$accordion-border-color: #1a1a1a;
 
-$accordion-button-active-color: $dark;
-$accordion-button-active-bg: rgb(109, 107, 107);
-$accordion-icon-active-color: $dark;
+$accordion-button-active-color: $light;
+// $accordion-button-active-bg: rgb(109, 107, 107);
+$accordion-button-active-bg: #1a1a1a;
+
+$accordion-icon-active-color: $light;
 
 $accordion-button-focus-box-shadow: none;
 
